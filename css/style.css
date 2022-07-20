@@ -207,8 +207,8 @@ body {
 
 .slick-dots button {
   padding: 0;
-  margin: 0;
   font-size: 0;
+  margin: 0;
   width: 11px;
   height: 11px;
   border: 1px solid #fff;
@@ -216,7 +216,7 @@ body {
   background-color: transparent;
 }
 
-.slick-active li button {
+.slick-active button {
   background-color: #fff;
 }
 
