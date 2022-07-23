@@ -758,3 +758,31 @@ body {
 .social-list__item + .social-list__item{
   margin-left: 30px;
 }
+
+/* ---------Catalog-------------------------- */
+
+.breadcrumbs{
+  margin-bottom: 40px;
+  
+}
+
+.breadcrumbs__list-item{
+  display: inline-block;
+  padding-right: 16px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.breadcrumbs__list-item::after{
+  content: "";
+  position: absolute;
+  right: 0;
+  background-image: url('../images/categories/link-arrow.svg');
+  width: 6px;
+  height: 9px;
+  bottom: 6px;
+}
+
+.breadcrumbs__list-item:last-child::after{
+  display: none;
+}
