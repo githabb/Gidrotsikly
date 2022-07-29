@@ -938,20 +938,35 @@ body {
 .filter__item-drop{
   margin-bottom: 20px;
   position: relative;
+  cursor: pointer;
 }
 
 .filter__item-drop::before{
   content: "";
-  background-image: url('../images/catalog/arrow-down.svg');
+  background-image: url('../images/arrow-down.svg');
   position: absolute;
   left: 0;
   bottom: 0;
   width: 12px;
   height: 8px;
-  bottom: 4px;
+  bottom: 5px;
+  transform: rotate(0deg);
 }
 
-.filter__item-drop--active{
-  
+.filter__item-drop--active::before{
+  transform: rotate(180deg);
+}
 
+.aside-filter__content{
+  display: flex;
+}
+
+.aside-filter__item-content-box{
+  width: 50%;
+}
+
+.aside-filter__content-label{
+  font-size: 14px;
+  cursor: pointer;
+  line-height: 17px;
 }
