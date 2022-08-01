@@ -1192,3 +1192,19 @@ body {
   color: #BDBEC2;
 }
 
+.btn-checked .aside-filter__content{
+  flex-wrap: nowrap;
+
+}
+
+.btn-checked .aside-filter__item-content-box{
+  width: auto;
+}
+
+.btn-checked .aside-filter__content-label{
+
+}
+
+.btn-checked__text{
+
+}
