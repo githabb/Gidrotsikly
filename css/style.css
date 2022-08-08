@@ -270,7 +270,7 @@ body {
   padding-right: 20px;
 }
 
-.sale-item__price-new::after {
+/* .sale-item__price-new::after {
   content: "";
   background-image: url("../images/icons-price.svg");
   position: absolute;
@@ -278,7 +278,7 @@ body {
   top: 8px;
   width: 15px;
   height: 18px;
-}
+} */
 
 .sale-item__price-old {
   font-weight: 400;
@@ -292,7 +292,7 @@ body {
   display: inline-block;
 }
 
-.sale-item__price-old::after {
+/* .sale-item__price-old::after {
   content: "";
   background-image: url("../images/icons-price-old.svg");
   position: absolute;
@@ -300,7 +300,7 @@ body {
   top: 8px;
   width: 8px;
   height: 10px;
-}
+} */
 
 .sale-item__footer {
   background-color: #d9d9d9;
