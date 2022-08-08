@@ -19,6 +19,7 @@
         background-color: transparent;
         cursor: pointer;
         border: none;
+        padding: 0;
     }
     .menu__btn-line{
         background: #2f3035;
@@ -27,7 +28,23 @@
         width: 34px;
         margin: 8px 0;
     }
+
+    .menu__mobile__linewrapper{
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        font-family: 'SFProDisplay-Bold', sans-serif;
+        background: #f0f0f4;   
+        overflow-x: scroll;
+    }
+
+    .menu__mobile__line{
+        padding: 14px 0 14px 15px;
+        width: 450px;       
+    }
 }
+
+
 
 @media(max-width: 640px){
     .header__adress{
