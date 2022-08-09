@@ -11,14 +11,9 @@ $(function(){
           breakpoint: 969,
           settings:{
             arrows: false 
-
+          }
         }
-
-      }
-
-      ] 
-        
-      
+      ]  
     });
 
     $('.tab').on('click', function(e){
