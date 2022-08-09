@@ -258,6 +258,10 @@ body {
   border-radius: 50%;
   background-color: transparent;
 }
+
+.slick-dots .slick-active button{
+  background-color: #fff;
+}
 /* 
 .slick-active  button {
   background: #fff;
@@ -1628,4 +1632,17 @@ card__list-btn button{
   background-color: #1c62cd;
   border-radius: 3px;
   border: none;
+}
+
+.product-slider .slick-dots{
+  bottom: -30px;
+}
+
+.product-slider .slick-dots button{
+  background-color: #c4c4c4;
+}
+
+
+.product-slider .slick-dots .slick-active button{
+  background-color: #1c62cd;
 }
