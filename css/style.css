@@ -1552,8 +1552,8 @@ body {
   opacity: 0.6;
 }
 
-.product-card__tab.tab--active{
-  border: 2px solid #1C62CD;
+.card__tab.tab--active{
+  border-bottom: 2px solid #1C62CD;
   opacity: 1;
 }
 

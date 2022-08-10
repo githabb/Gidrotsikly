@@ -63,7 +63,7 @@
         margin: 8px 0;
     }
 
-    .menu__mobile__linewrapper{
+    .menu-mobile__linewrapper{
         display: block;
         font-weight: bold;
         font-size: 20px;
@@ -73,7 +73,7 @@
         overflow-x: scroll;
     }
 
-    .menu__mobile__line{
+    .menu-mobile__line{
         padding: 14px 0 14px 15px;
         width: 450px;       
     }
