@@ -1651,3 +1651,11 @@ card__list-btn button{
 .product-slider .slick-dots .slick-active button{
   background-color: #1c62cd;
 }
+
+.product-card__btn-mobile{
+  display: none;
+}
+
+.footer__topdrop{
+  pointer-events: none;
+}
