@@ -1627,7 +1627,7 @@ body {
   margin-left: auto;
 }
 
-card__list-btn button{
+.card__list-btn button{
   font-size: 13px;
   line-height: 16px;
   letter-spacing: 0.12em;
